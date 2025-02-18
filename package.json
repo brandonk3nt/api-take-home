@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "name": "api-take-home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
