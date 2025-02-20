@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/node": "^22.13.4",
     "typescript": "^5.7.3"
   },
   "name": "api-take-home",
@@ -7,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
+    "watch": "npx tsc --watch",
     "start": "node build/main.js"
   },
   "author": "",
